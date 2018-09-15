@@ -9,7 +9,7 @@ public class Example
     {
         SetTimer();
 
-        Console.WriteLine("\nPress the Enter key to exit the application...\n");
+        Console.WriteLine("для выхода нажми ентер ");
         Console.WriteLine("The application started at {0:HH:mm:ss.fff}", DateTime.Now);
         Console.ReadLine();
         aTimer.Stop();
